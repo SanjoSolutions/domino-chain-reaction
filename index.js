@@ -2,7 +2,7 @@ import { Color } from './dominoes/Color.js'
 import { Domino } from './dominoes/Domino.js'
 import { DominoChain } from './dominoes/DominoChain.js'
 import { Position } from './dominoes/Position.js'
-import { DominoChainRenderer } from './dominoes/rendering'
+import { DominoChainRenderer } from './dominoes/rendering/index.js'
 import { wait } from './wait.js'
 
 export async function main() {
